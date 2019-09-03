@@ -1,4 +1,7 @@
 {
+  "homepage" : "https://realseop.github.io/datainput",
+  "deploy": "gh-pages -d build",
+  "predeploy":"npm run build",
   "name": "datainputapp",
   "version": "0.1.0",
   "private": true,
@@ -31,4 +34,3 @@
     ]
   }
 }
-
